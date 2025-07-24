@@ -13,10 +13,15 @@ public class Car {
 	}
 
 	public void move() {
-		System.out.println("움직입니다.");
+		System.out.println(this.company + "에서 만든 차가 움직입니다.");
 	}
 
 	public int fuel(int price) {
 		return price;
+	}
+
+	public void old() {
+		System.out.println("차의 생산년도는 " + this.year + "입니다.");
+
 	}
 }

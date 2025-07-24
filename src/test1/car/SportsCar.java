@@ -5,7 +5,6 @@ public class SportsCar extends Car {
 
 	public SportsCar() {
 		// 부모 클래스의 기본 생성자가 존재하기 때문에 super(); 생략 가능인듯?
-		// super();
 	}
 
 	@Override
