@@ -1,13 +1,13 @@
 package test1.person;
 
-public class Solider extends Person {
+public class Soldier extends Person {
 	int rank = 3;
 
-	public Solider(String name) {
+	public Soldier(String name) {
 		super(name);
 	}
 
-	public Solider(String name, int rank) {
+	public Soldier(String name, int rank) {
 		super(name);
 		this.rank = rank;
 	}

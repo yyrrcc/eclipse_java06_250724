@@ -14,12 +14,12 @@ public class PersonMain {
 
 		System.out.println("------------------------");
 
-		Solider sol1 = new Solider("김군인", 7);
+		Soldier sol1 = new Soldier("김군인", 7);
 		System.out.println(sol1.levelUp(3) + ", 축하합니다.");
 
 		System.out.println("------------------------");
 
-		Solider sol2 = new Solider("최군인");
+		Soldier sol2 = new Soldier("최군인");
 		sol2.living("부산");
 		System.out.println(sol2.levelUp(0) + ", 이제 시작입니다.");
 
