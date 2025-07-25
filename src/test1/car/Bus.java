@@ -13,10 +13,12 @@ public class Bus extends Car {
 		this.color = color;
 	}
 
-	@Override
-	public int fuel(int oil) {
-		return super.fuel(oil);
-	}
+	// 이것도 매개변수가 다르긴 하지만 똑같이 int 받는거라 굳이 쓸 필요 없음
+	// 아니면 새롭게 따로 만들거나
+//	@Override
+//	public int fuel(int oil) {
+//		return super.fuel(oil);
+//	}
 
 	public void color() {
 		System.out.println("버스의 색깔은 " + this.color + "입니다.");
